@@ -9,6 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 @RequiredArgsConstructor
 
+
 public class WebConfig implements WebMvcConfigurer {
     private static final String ALLOWED_METHOD_NAMES = "GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS, PATCH";
 
